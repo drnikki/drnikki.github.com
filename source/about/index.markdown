@@ -1,0 +1,33 @@
+---
+layout: page
+title: "who in the what?"
+date: 2012-10-15 12:48
+comments: false
+sharing: true
+footer: true
+---
+
+
+Hi, I’m Nikki. I’m a New York City-based programmer, currently working
+as a Drupal developer. I’m currently ~~a tech lead at [Workhabit][],
+working on [Major League Soccer][].~~ Senior Software Engineer at LBi
+New York where I’m the development lead for Americans Elect. I used to
+be the Lead Developer at [DivX][].
+
+I often freelance on short projects. In the last year or two, I’ve
+worked on projects for [Dove][], [Jewish Funds for Social Justice][],
+[Slow Food USA][], [LinkedIn][], [Countryfest][] and [Intellivent
+Group][], and a few others that my NDA won’t let me reveal.
+
+Get in touch if you’d like some work done, or if you just want to say
+hi.
+
+  [Workhabit]: http://www.workhabit.com
+  [Major League Soccer]: http://www.mlssoccer.com
+  [DivX]: http://www.divx.com
+  [Dove]: http://www.dovemovement.com/events
+  [Jewish Funds for Social Justice]: http://www.jewishjustice.org/
+  [Slow Food USA]: http://www.slowfoodusa.org
+  [LinkedIn]: http://www.linkedin.com
+  [Countryfest]: http://www.countryfest.com/
+  [Intellivent Group]: http://www.intelliventgroup.com/
