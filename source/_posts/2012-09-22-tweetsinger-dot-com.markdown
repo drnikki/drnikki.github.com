@@ -13,7 +13,7 @@ something different.
 
 What was initially presented to me as a “quick two-page site” took a
 month of long hours to finish.
-
+<!--more-->
 **The technology:**
 
 Its built in Symfony, backed by MongoDB, and using HTML5 canvas for

@@ -7,7 +7,7 @@ categories: [django, i18n]
 ---
 
 I spent today debugging a multilingual django app that I didn't write.  The problem is that the site's language was being changed when you used the language switcher, but not if you typed in the url.  So http://example.com/fr would only _occasionally_ land you on the French version of the site. When you're using custom language codes for any reason (in our case, we were matching the client's lang codes) you're going to have to set the app's language.
-
+<!--more-->
 The relevant code:
 
 
