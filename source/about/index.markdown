@@ -1,7 +1,6 @@
 ---
 layout: page
 title: "who in the what?"
-date: 2012-10-15 12:48
 comments: false
 sharing: true
 footer: true
