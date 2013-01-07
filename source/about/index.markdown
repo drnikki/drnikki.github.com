@@ -9,7 +9,7 @@ footer: true
 
 Hi, I’m Nikki. I’m a New York City-based programmer. I've been making websites for 15 years, and have spent the last 5 working as a Drupal developer.  In the last six months, I've done Symfony, Django and some Rails work. 
 
-a’m currently a  Technical Architect at LBi/MRY where I'm the Technical Director for a Coca-Cola project. I used to
+I’m currently a  Technical Architect at LBi/MRY where I'm the Technical Director for a Coca-Cola project. I used to
 be the Lead Developer at [DivX][], tech lead at [Workhabit][], and development lead for [Americans Elect][].
 
 I often freelance on short projects. In the last year or two, I’ve
