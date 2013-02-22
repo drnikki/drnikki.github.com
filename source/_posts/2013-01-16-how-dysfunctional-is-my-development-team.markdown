@@ -21,7 +21,7 @@ Answer *True* or *False* to each of the following statements:
 * I'm a developer starting a new project. I know where to go to create my repository, tickets and anything else I need.
 * I'm a developer looking for comps.  I know where the design team keeps their comps for my projects.  I also know each time a comp is updated or changed without having to go look.
 * Each time a project is scoped, I, or another developer, am consulted to validate the feasibility of the overall plan.
-* I have regular meetings with my larger, non-tech project team about the status of the project's different parts.
+* I have regular meetings with my larger, non-tech project leads about the status of the project's different parts.
 * I have regular meetings within my technical department to do code reviews / educational seminars / showing off neat stuff.
 * I'm excited to learn from other members on my team.  I think I work with amazing programmers.
 * I'm a developer looking to improve my skills.  I know my managers are going to be excited to help me do so.
