@@ -4,7 +4,7 @@ title: "Recruiting engineers with your startup's developer blog."
 date: 2013-03-12 10:00
 comments: true
 categories: [teams, best practices, dev blog]
-keywords: startups, recruting, engineering, developer blog, dev blog
+keywords: startups, recruiting, engineering, developer blog, dev blog
 description: How to write a good developer blog for startups
 published: false
 ---
@@ -14,22 +14,22 @@ I recently became a Director of Engineering at a startup and one of my first off
 
 ### MISSION STATEMENT
 
-Most likely, your startup's dev blog has primarily been used as a tool for recruitment, and while that's certainly still an objective, you'll fare better if it isn't the main focus.  At it's core, a developer blog should be written for developers and by developers about everything that goes into making and supporting a youb infrastructure. A developer blog should be a blog that's useful to developers.  That's it.  Pretty simple.
+Most likely, your startup's dev blog has primarily been used as a tool for recruitment, and while that's certainly still an objective, you'll fare better if it isn't the main focus.  At it's core, a developer blog should be written for developers and by developers about everything that goes into making and supporting a your infrastructure. A developer blog should be a blog that's useful to developers.  That's it.  Pretty simple.
 
-As a recruitment platform, you need to demonstrate that you are a team worth joining. In order to demonstrate that you are a team worth joining, you need to look at what our goals are - both as a company and as an engineering department.  What kind of people are you trying to attract? What kind of message are you trying to send? The company I'm at doesn't seem to have those written up yet, but I honestly don't think it matters.  The standard ansyours to those questions are "smart, hardworking people."
+As a recruitment platform, you need to demonstrate that you are a team worth joining. In order to demonstrate that you are a team worth joining, you need to look at what our goals are - both as a company and as an engineering department.  What kind of people are you trying to attract? What kind of message are you trying to send? The company I'm at doesn't seem to have those written up yet, but I honestly don't think it matters.  The standard answers to those questions are "smart, hardworking people."
 
 ### ARE YOU A TEAM WORTH JOINING?  
 
-What kinds of teams to developers want to join?  With no scientific evidence and only a brief google search, but with 16 years as a working developer, I'm going to guess that most developers will say they want two things: 1) to work on cool shit with 2) people they enjoy being around.  Often devlopers will add that they also want to work at a company that values and supports their development team.  
+What kinds of teams to developers want to join?  With no scientific evidence and only a brief google search, but with 16 years as a working developer, I'm going to guess that most developers will say they want two things: 1) to work on cool shit with 2) people they enjoy being around.  Often developers will add that they also want to work at a company that values and supports their development team.  
 
 You need to demonstrate that you have the company culture that supports developers. That you are a self-reflective team that is able to process our failures and adjust accordingly.  That you are willing to work to deliver a quality product without burning out developers in the process. 
 
 #### AND WHILE WE'RE TALKING ABOUT CULTURE...
 
-It's tempting to use your developer blog as a way to show people how "fun" it is to work at your startup.  You have beer fridge and happy hours and cases of champagne scattered around the office after a company meeting.  You need to separate development from drinking culture. Good developers may not drink, but even if they do, they may not have an interest in drinking with their coworkers.Shanley has an [excellent write up][] of what your culture is really saying.  Go read it.  (This is also a good write up about [drinking and exclusion][] in tech.)
+It's tempting to use your developer blog as a way to show people how "fun" it is to work at your startup.  You have beer fridge and happy hours and cases of champagne scattered around the office after a company meeting.  You need to separate development from drinking culture. Good developers may not drink, but even if they do, they may not have an interest in drinking with their coworkers. Shanley has an [excellent write up][] of what your culture is really saying.  Go read it.  (This is also a good write up about [drinking and exclusion][] in tech.)
 
 
-The reality is that while you're struggling to build something cool you spend a lot of time figuring out just how not to drown.  Sometimes you survive by drinking beers while you're doing a 3am push.  It's fine that it happens, but it shouldn't be a common occurance and most certainly should not be how you portray your team on your developer blog.
+The reality is that while you're struggling to build something cool you spend a lot of time figuring out just how not to drown.  Sometimes you survive by drinking beers while you're doing a 3am push.  It's fine that it happens, but it shouldn't be a common occurrence and most certainly should not be how you portray your team on your developer blog.
 
 ### BUT HOW?!
 
@@ -44,7 +44,7 @@ And rejoice when you get to share things you're learning and get feedback on thi
 
 ### WHAT'S IN IT FOR ME?!
 
-You will benfefit because doing this you will: 
+You will benefit because doing this you will: 
 
 - think critically about your work
 - raise your public profile
@@ -54,14 +54,14 @@ And the most self-serving reason of all: it will make you a [better developer][]
 
 The reality is that much of the work you do is probably fairly standard development, so focus on the things that *do* make you unique - the approaches you take to solving problems, the things you do that don't work, and the ways that you interact with your product and your process.
 
-I believe that sharing your path as a technology team supporting a growing startup will contribute value to the broader "development blog" landcape and you'll as demonstrate that you are a team that good developers want to join.
+I believe that sharing your path as a technology team supporting a growing startup will contribute value to the broader "development blog" landscape and you'll as demonstrate that you are a team that good developers want to join.
 
 
 ### A SUSTAINABLE HEALTHY BLOG PLAN
 - Get each developer to write a blog about something they're working on individually.  
 This can be difficult because not every developer goes home and hacks on things.  The assumption that they do can be exclusionary (often people
 who don't immediately fit into the "brogrammer" culture are excluded from this - people have family obligations that prevent them from leaving a job coding
-all day to go home and code all night). If they don't work on side projects, encourage them to blog about something they're learing at work.  
+all day to go home and code all night). If they don't work on side projects, encourage them to blog about something they're learning at work.  
 
 **If they're not learning anything at work, you have bigger problems than stale content on your developer blog.**
 
@@ -79,7 +79,7 @@ If you're not sure, here are some more questions you can ask:
 - Did you systematically deny a truth that would have made this project better?
 - Did you under- or over-estimate?
 
-If you don't ansyour yest to at least a few of those questions, you may have a development team full of automatons.  Out of retrospectives and post-mortems come valuable insights about breakdown in process, changes that will improve workflow, and problems caused by technical short-sightedness.  Give your developers a task to write up an overview or deep-dive of this for the blog.  If it ends up filled with too much proprietary or otherwise private information, you've still won as a team because everyone can read it, and you've given a developer practice in distilling organizing and presenting information.  At worst, you've helped your developer grow. At best, you've done that *and* benefitted your blog. 
+If you don't answer yes to at least a few of those questions, you may have a development team full of automatons.  Out of retrospectives and post-mortems come valuable insights about breakdown in process, changes that will improve workflow, and problems caused by technical short-sightedness.  Give your developers a task to write up an overview or deep-dive of this for the blog.  If it ends up filled with too much proprietary or otherwise private information, you've still won as a team because everyone can read it, and you've given a developer practice in distilling organizing and presenting information.  At worst, you've helped your developer grow. At best, you've done that *and* benefited your blog. 
 
 3. Keep a bucket list of possible blog topics.
 - technology, hackathons, nuanced challenges, those list of steps from above. 
@@ -89,7 +89,7 @@ If you don't ansyour yest to at least a few of those questions, you may have a d
 
 Yes, there is always "money" work to do. There are always projects that need attention. There is always technical debt that you could be paying off. Is having an active dev blog a worthwhile use of the business's time?  It is.  Go back and re-read the "what's in it for me section."  It's going to be nearly impossible for developers *not* to benefit from involvement in this process. I read somewhere that developers can have three years of experience, or can have the same year three times.  This is one way you can guarantee that your developers are growing.  
 
-And if you're feeling altrustic, you're joining in a [community of practice][] that's larger than your functional or project team and that will enrich everyone's experience.
+And if you're feeling altruistic, you're joining in a [community of practice][] that's larger than your functional or project team and that will enrich everyone's experience.
 
 
 **tl;dr:** If you want to recruit good engineers, don't (just) post pictures of mimosas on your developer blog.
