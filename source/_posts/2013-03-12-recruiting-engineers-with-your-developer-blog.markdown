@@ -89,7 +89,7 @@ If you don't answer yes to at least a few of those questions, you may have a dev
 
 Yes, there is always "money" work to do. There are always projects that need attention. There is always technical debt that you could be paying off. Is having an active dev blog a worthwhile use of the business's time?  It is.  Go back and re-read the "what's in it for me section."  It's going to be nearly impossible for developers *not* to benefit from involvement in this process. I read somewhere that developers can have three years of experience, or can have the same year three times.  This is one way you can guarantee that your developers are growing.  
 
-And if you're feeling altruistic, you're joining in a [community of practice][] that's larger than your functional or project team and that will enrich everyone's experience.
+And if you're feeling altruistic, think about how you're joining in a [community of practice][] that's larger than your functional or project team and that is going to enrich everyone's experience.
 
 
 **tl;dr:** If you want to recruit good engineers, don't (just) post pictures of mimosas on your developer blog.
