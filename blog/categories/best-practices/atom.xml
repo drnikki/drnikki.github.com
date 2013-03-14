@@ -4,7 +4,7 @@
   <title><![CDATA[Category: best practices | Nikki Stevens]]></title>
   <link href="http://drnikki.github.com/blog/categories/best-practices/atom.xml" rel="self"/>
   <link href="http://drnikki.github.com/"/>
-  <updated>2013-03-14T15:01:53-04:00</updated>
+  <updated>2013-03-14T15:49:38-04:00</updated>
   <id>http://drnikki.github.com/</id>
   <author>
     <name><![CDATA[Nikki Stevens]]></name>
@@ -74,20 +74,14 @@ And rejoice when you get to share things you're learning and get feedback on thi
 
 <h3>A SUSTAINABLE HEALTHY BLOG PLAN</h3>
 
-<ul>
-<li>Get each developer to write a blog about something they're working on individually.<br/>
+<p><strong> Get each developer to write a blog about something they're working on individually.</strong>
 This can be difficult because not every developer goes home and hacks on things.  The assumption that they do can be exclusionary (often people
 who don't immediately fit into the "brogrammer" culture are excluded from this - people have family obligations that prevent them from leaving a job coding
-all day to go home and code all night). If they don't work on side projects, encourage them to blog about something they're learning at work.</li>
-</ul>
+all day to go home and code all night). If they don't work on side projects, encourage them to blog about something they're learning at work.</p>
 
+<p><em>If they're not learning anything at work, you have bigger problems than stale content on your developer blog.</em></p>
 
-<p><strong>If they're not learning anything at work, you have bigger problems than stale content on your developer blog.</strong></p>
-
-<ul>
-<li>Each time there's a sprint retrospective or project post-mortem, ask: "can you blog about this?"</li>
-</ul>
-
+<p><strong>Each time there's a sprint retrospective or project post-mortem, ask: "can you blog about this?"</strong></p>
 
 <p>If you're not sure, here are some more questions you can ask:</p>
 
@@ -105,11 +99,9 @@ all day to go home and code all night). If they don't work on side projects, enc
 
 <p>If you don't answer yes to at least a few of those questions, you may have a development team full of automatons.  Out of retrospectives and post-mortems come valuable insights about breakdown in process, changes that will improve workflow, and problems caused by technical short-sightedness.  Give your developers a task to write up an overview or deep-dive of this for the blog.  If it ends up filled with too much proprietary or otherwise private information, you've still won as a team because everyone can read it, and you've given a developer practice in distilling organizing and presenting information.  At worst, you've helped your developer grow. At best, you've done that <em>and</em> benefited your blog.</p>
 
-<ol>
-<li>Keep a bucket list of possible blog topics.</li>
-<li>technology, hackathons, nuanced challenges, those list of steps from above.</li>
-</ol>
+<p><strong>Keep a bucket list of possible blog topics.</strong></p>
 
+<p>New technology, hackathons, nuanced challenges, that list of steps from above - the more you start thinking "Can I write a blog about this?" the more you'll find things to blog about, I promise.</p>
 
 <h3>YES, BUT</h3>
 
