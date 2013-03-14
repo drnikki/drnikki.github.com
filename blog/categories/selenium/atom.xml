@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: selenium | Nikki Stevens]]></title>
+  <link href="http://drnikki.github.com/blog/categories/selenium/atom.xml" rel="self"/>
+  <link href="http://drnikki.github.com/"/>
+  <updated>2013-03-14T15:01:08-04:00</updated>
+  <id>http://drnikki.github.com/</id>
+  <author>
+    <name><![CDATA[Nikki Stevens]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Testing with Selenium]]></title>
+    <link href="http://drnikki.github.com/blog/2011/12/10/testing-with-selenium/"/>
+    <updated>2011-12-10T17:22:00-05:00</updated>
+    <id>http://drnikki.github.com/blog/2011/12/10/testing-with-selenium</id>
+    <content type="html"><![CDATA[<p>In case you missed my presentation this afternoon, you can get slides,
+see tests, read notes and etc. etc at
+<a href="https://github.com/drnikki/Drupal-Camp-NYC-10">https://github.com/drnikki/Drupal-Camp-NYC-10</a></p>
+
+<p>If you were in my presentation and had a question we didn’t cover, check
+out the README.txt.</p>
+]]></content>
+  </entry>
+  
+</feed>

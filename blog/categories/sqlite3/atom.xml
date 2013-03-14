@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: sqlite3 | Nikki Stevens]]></title>
+  <link href="http://drnikki.github.com/blog/categories/sqlite3/atom.xml" rel="self"/>
+  <link href="http://drnikki.github.com/"/>
+  <updated>2013-03-14T15:01:08-04:00</updated>
+  <id>http://drnikki.github.com/</id>
+  <author>
+    <name><![CDATA[Nikki Stevens]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Getting Skype History]]></title>
+    <link href="http://drnikki.github.com/blog/2012/10/24/getting-skype-history/"/>
+    <updated>2012-10-24T16:03:00-04:00</updated>
+    <id>http://drnikki.github.com/blog/2012/10/24/getting-skype-history</id>
+    <content type="html"><![CDATA[<p>I hate Skype, but I'm stuck using it.  Part of my problem with it is that logs get very large very quickly and going back to find something you forgot to write down (like a server addres) takes forever.</p>
+
+<p>The solution?  Export your skype logs to something grep-able! (Duh.)</p>
+
+<p><div><script src='https://gist.github.com/3947360.js?file='></script>
+<noscript><pre><code></code></pre></noscript></div>
+</p>
+
+<p>So hot, so easy, put it in cron and run it all the time.</p>
+
+<p>p.s. Install OSX Developer Tools if you're on a OSX.</p>
+
+<p>p.p.s I totally stole this from a Stack Overflow post a while ago.  If I find it, I'll include the link.</p>
+]]></content>
+  </entry>
+  
+</feed>

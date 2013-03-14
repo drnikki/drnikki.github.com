@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Nikki Stevens]]></title>
+  <link href="http://drnikki.github.com/atom.xml" rel="self"/>
+  <link href="http://drnikki.github.com/"/>
+  <updated>2013-03-14T15:01:08-04:00</updated>
+  <id>http://drnikki.github.com/</id>
+  <author>
+    <name><![CDATA[Nikki Stevens]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Recruiting engineers with your startup's developer blog.]]></title>
+    <link href="http://drnikki.github.com/blog/2013/03/12/recruiting-engineers-with-your-developer-blog/"/>
+    <updated>2013-03-12T10:00:00-04:00</updated>
+    <id>http://drnikki.github.com/blog/2013/03/12/recruiting-engineers-with-your-developer-blog</id>
+    <content type="html"><![CDATA[<p>I recently became a Director of Engineering at a startup and one of my first official tasks was to revitalize the company&#8217;s very stale developer blog.  I started thinking about what makes a good dev blog, and began writing up recommendations for what I thought the team should do.  I got all the way through these and realized that I could have gone into nearly any startup and given this same advice.  So, here is some advice on how to run your startup&#8217;s developer blog.</p>
+
+<!-- more -->
+
+
+<h3>MISSION STATEMENT</h3>
+
+<p>Most likely, your startup&#8217;s dev blog has primarily been used as a tool for recruitment, and while that&#8217;s certainly still an objective, you&#8217;ll fare better if it isn&#8217;t the main focus.  At it&#8217;s core, a developer blog should be written for developers and by developers about everything that goes into making and supporting a your infrastructure. A developer blog should be a blog that&#8217;s useful to developers.  That&#8217;s it.  Pretty simple.</p>
+
+<p>As a recruitment platform, you need to demonstrate that you are a team worth joining. In order to demonstrate that you are a team worth joining, you need to look at what our goals are - both as a company and as an engineering department.  What kind of people are you trying to attract? What kind of message are you trying to send? The company I&#8217;m at doesn&#8217;t seem to have those written up yet, but I honestly don&#8217;t think it matters.  The standard answers to those questions are &#8220;smart, hardworking people.&#8221;</p>
+
+<h3>ARE YOU A TEAM WORTH JOINING?</h3>
+
+<p>What kinds of teams to developers want to join?  With no scientific evidence and only a brief google search, but with 16 years as a working developer, I&#8217;m going to guess that most developers will say they want two things: 1) to work on cool shit with 2) people they enjoy being around.  Often developers will add that they also want to work at a company that values and supports their development team.</p>
+
+<p>You need to demonstrate that you have the company culture that supports developers. That you are a self-reflective team that is able to process our failures and adjust accordingly.  That you are willing to work to deliver a quality product without burning out developers in the process.</p>
+
+<h4>AND WHILE WE&#8217;RE TALKING ABOUT CULTURE&#8230;</h4>
+
+<p>It&#8217;s tempting to use your developer blog as a way to show people how &#8220;fun&#8221; it is to work at your startup.  You have beer fridge and happy hours and cases of champagne scattered around the office after a company meeting.  You need to separate development from drinking culture. Good developers may not drink, but even if they do, they may not have an interest in drinking with their coworkers. Shanley has an <a href="http://blog.prettylittlestatemachine.com/blog/2013/02/20/what-your-culture-really-says/">excellent write up</a> of what your culture is really saying.  Go read it.  (This is also a good write up about <a href="http://ryanfunduk.com/culture-of-exclusion/">drinking and exclusion</a> in tech.)</p>
+
+<p>The reality is that while you&#8217;re struggling to build something cool you spend a lot of time figuring out just how not to drown.  Sometimes you survive by drinking beers while you&#8217;re doing a 3am push.  It&#8217;s fine that it happens, but it shouldn&#8217;t be a common occurrence and most certainly should not be how you portray your team on your developer blog.</p>
+
+<h3>BUT HOW?!</h3>
+
+<p>It&#8217;s actually quite simple.</p>
+
+<ol>
+<li>Find things you can blog about<br />
+Your team can probably come up with a bunch of things they can blog about.  Your company/brand may have some things they don&#8217;t want discussed.  You may have ideas about topics you&#8217;d like to investigate.  Go forth and find ideas.  If this is where you&#8217;re stuck, well, I don&#8217;t have any other help for you just yet.</li>
+<li>Put blog stories into your work tracker <br />
+Pivotal Tracker, JIRA, ScrumSomethingSomething - whatever you use, make writing blog posts a point-worthy task that&#8217;s accomplished in a sprint just like any other.</li>
+<li>Publish<br />
+And rejoice when you get to share things you&#8217;re learning and get feedback on things that you&#8217;re still uncovering.</li>
+</ol>
+
+
+<h3>WHAT&#8217;S IN IT FOR ME?!</h3>
+
+<p>You will benefit because doing this you will:</p>
+
+<ul>
+<li>think critically about your work</li>
+<li>raise your public profile</li>
+<li>increase your <a href="http://news.ycombinator.com/item?id=5338719">open source contributions</a></li>
+</ul>
+
+
+<p>And the most self-serving reason of all: it will make you a <a href="http://stackoverflow.com/questions/99460/does-writing-and-speaking-on-software-make-you-a-better-programmer">better developer</a>.  If you&#8217;re not a developer and don&#8217;t care about any of those things, probably stop reading because I can&#8217;t help you just yet.</p>
+
+<p>The reality is that much of the work you do is probably fairly standard development, so focus on the things that <em>do</em> make you unique - the approaches you take to solving problems, the things you do that don&#8217;t work, and the ways that you interact with your product and your process.</p>
+
+<p>I believe that sharing your path as a technology team supporting a growing startup will contribute value to the broader &#8220;development blog&#8221; landscape and you&#8217;ll as demonstrate that you are a team that good developers want to join.</p>
+
+<h3>A SUSTAINABLE HEALTHY BLOG PLAN</h3>
+
+<ul>
+<li>Get each developer to write a blog about something they&#8217;re working on individually.<br/>
+This can be difficult because not every developer goes home and hacks on things.  The assumption that they do can be exclusionary (often people
+who don&#8217;t immediately fit into the &#8220;brogrammer&#8221; culture are excluded from this - people have family obligations that prevent them from leaving a job coding
+all day to go home and code all night). If they don&#8217;t work on side projects, encourage them to blog about something they&#8217;re learning at work.</li>
+</ul>
+
+
+<p><strong>If they&#8217;re not learning anything at work, you have bigger problems than stale content on your developer blog.</strong></p>
+
+<ul>
+<li>Each time there&#8217;s a sprint retrospective or project post-mortem, ask: &#8220;can you blog about this?&#8221;</li>
+</ul>
+
+
+<p>If you&#8217;re not sure, here are some more questions you can ask:</p>
+
+<ul>
+<li>Did you try something new that worked?</li>
+<li>Did you try something new that didn&#8217;t work?</li>
+<li>Did you stop doing something good or start doing something bad?</li>
+<li>Did a team member take an action that impacted the rest of the team?</li>
+<li>Did a major technology fail us? Why?</li>
+<li>Did something completely unexpected happen that threw us off course?</li>
+<li>Did you systematically deny a truth that would have made this project better?</li>
+<li>Did you under- or over-estimate?</li>
+</ul>
+
+
+<p>If you don&#8217;t answer yes to at least a few of those questions, you may have a development team full of automatons.  Out of retrospectives and post-mortems come valuable insights about breakdown in process, changes that will improve workflow, and problems caused by technical short-sightedness.  Give your developers a task to write up an overview or deep-dive of this for the blog.  If it ends up filled with too much proprietary or otherwise private information, you&#8217;ve still won as a team because everyone can read it, and you&#8217;ve given a developer practice in distilling organizing and presenting information.  At worst, you&#8217;ve helped your developer grow. At best, you&#8217;ve done that <em>and</em> benefited your blog.</p>
+
+<ol>
+<li>Keep a bucket list of possible blog topics.</li>
+<li>technology, hackathons, nuanced challenges, those list of steps from above.</li>
+</ol>
+
+
+<h3>YES, BUT</h3>
+
+<p>Yes, there is always &#8220;money&#8221; work to do. There are always projects that need attention. There is always technical debt that you could be paying off. Is having an active dev blog a worthwhile use of the business&#8217;s time?  It is.  Go back and re-read the &#8220;what&#8217;s in it for me section.&#8221;  It&#8217;s going to be nearly impossible for developers <em>not</em> to benefit from involvement in this process. I read somewhere that developers can have three years of experience, or can have the same year three times.  This is one way you can guarantee that your developers are growing.</p>
+
+<p>And if you&#8217;re feeling altruistic, think about how you&#8217;re joining in a <a href="http://en.wikipedia.org/wiki/Community_of_practice">community of practice</a> that&#8217;s larger than your functional or project team and that is going to enrich everyone&#8217;s experience.</p>
+
+<p><strong>tl;dr:</strong> If you want to recruit good engineers, don&#8217;t (just) post pictures of mimosas on your developer blog.</p>
+
+<p><em>Did I miss anything?  Tell me! <a href="http://twitter.com/drnikki">@drnikki</a></em></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[How dysfunctional is my development team?]]></title>
+    <link href="http://drnikki.github.com/blog/2013/01/16/how-dysfunctional-is-my-development-team/"/>
+    <updated>2013-01-16T16:12:00-05:00</updated>
+    <id>http://drnikki.github.com/blog/2013/01/16/how-dysfunctional-is-my-development-team</id>
+    <content type="html"><![CDATA[<p>Next Friday, I&#8217;ll be presenting at <a href="http://sandcamp.org">SandCamp</a> on <a href="https://sandcamp.org/best-practices-teams">best practices for teams</a>. Naturally, I’ve been thinking about what makes a good team in general, and a good software development team specifically.  For most of my career, I’ve been part of development teams at development shops or technical companies.  Those places already had forward-thinking technical people making infrastructure decisions and crafting the technical culture (for better or worse).  By the time I came along, most of the kinks had been worked out.</p>
+
+<p>But I don&#8217;t work at a technical company right now - I work at an advertising agency.</p>
+
+<!-- more -->
+
+
+<p>The more time I spend here, the more I realize: advertising agencies are <strong>the exact opposite</strong> of technical companies.  They’re filled with forward-thinking non-technical people. Most agencies used to be print/media focused. But, times change and agencies change along with them.  Now most advertising agencies have in-house development teams. A lot of these agencies brand themselves as bleeding-edge and interactive-focused.  But those same people who have brilliant creative visions for agencies are rarely able to nurture a technical department. Developers at ad agencies often become after-thoughts. After the brief is done, a producer will get a developer involved to &#8220;execute the vision.&#8221; By that time, it&#8217;s often too late to correct flaws in the design, or point out potential architectural pitfalls.</p>
+
+<p>And sometimes, developers and designers intuitively know that the way they&#8217;re working isn&#8217;t right, but can&#8217;t identify exactly what the problem is or how to fix it. If you find yourself in a similar situation, take the quiz!</p>
+
+<p>Answer <em>True</em> or <em>False</em> to each of the following statements:</p>
+
+<ul>
+<li>My entire department uses the same version control system, wiki, and ticketing system.</li>
+<li>I&#8217;m a developer starting a new project. I know where to go to create my repository, tickets and anything else I need.</li>
+<li>I&#8217;m a developer looking for comps.  I know where the design team keeps their comps for my projects.  I also know each time a comp is updated or changed without having to go look.</li>
+<li>Each time a project is scoped, I, or another developer, am consulted to validate the feasibility of the overall plan.</li>
+<li>I have regular meetings with my larger, non-tech project leads about the status of the project&#8217;s different parts.</li>
+<li>I have regular meetings within my technical department to do code reviews / educational seminars / showing off neat stuff.</li>
+<li>I&#8217;m excited to learn from other members on my team.  I think I work with amazing programmers.</li>
+<li>I&#8217;m a developer looking to improve my skills.  I know my managers are going to be excited to help me do so.</li>
+<li>I have a suggestion about a breakdown in our process.  I know my managers are going to be receptive to my ideas.</li>
+<li>I can approach the design team about a problem and be sure we’ll find a solution that meets both of our needs.</li>
+</ul>
+
+
+<p>If you answered <em>true</em> to most of the statements above, congratulations! There is nothing more to do - rejoice in your awesome team and go build cool stuff!</p>
+
+<p>If you answered <em>false</em> to most of the statements above, it&#8217;s time for an intervention.  Personally, I&#8217;m working to create an infrastructure and cultural shift that ensures that everyone on my team will be able to answer <em>true</em> to every statement.
+I&#8217;ll be writing more about it, but if you&#8217;re doing the same, <a href="http://twitter.com/drnikki">let&#8217;s talk</a>.</p>
+
+<p><em>Did I miss anything?  Tell me! <a href="http://twitter.com/drnikki">@drnikki</a></em></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Stupid cache is stupid]]></title>
+    <link href="http://drnikki.github.com/blog/2013/01/15/i-hate-you-cache/"/>
+    <updated>2013-01-15T10:25:00-05:00</updated>
+    <id>http://drnikki.github.com/blog/2013/01/15/i-hate-you-cache</id>
+    <content type="html"><![CDATA[<p>Recently, I worked on a project where the client controlled their production environment.  They&#8217;re using EdgeCast and we didn&#8217;t have access to force a cache clear when deploying new releases to production. So we&#8217;d push, ask them to clear cache, and wait as many as 8 - 10 hours to make sure everything was working fine.  This sucks, but what I didn&#8217;t expect was that even after they cleared the cache, old files were still being served. So we&#8217;d ask for another cache clear, and wait. This was as painful as it sounds.</p>
+
+<p>Eventually, they asked us to simply put no-cache headers on all of our files. This kind of defeats the purpose of even having a CDN, but okay.  We tried that next.  However, even with cache-control headers in place, the CDN would unpredictably serve older versions of .js and .css files.  There was a lot of back and forth and finger pointing about who&#8217;s fault it <em>really</em> was that prior-release .js was still being delivered.  They finally suggested that we rename our asset files with each release.  This <em>also</em> sucks, but was at least a solution that we could control.  With this script as part of our build, we met them halfway and sort of renamed asset files with each release.</p>
+
+<p> <a href="https://github.com/drnikki/cli-cachebuster">Here&#8217;s the repo</a> for the super simple script should you ever find yourself in such a stupid position.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Is my internet back yet]]></title>
+    <link href="http://drnikki.github.com/blog/2012/12/11/is-my-internet-back-yet/"/>
+    <updated>2012-12-11T16:25:00-05:00</updated>
+    <id>http://drnikki.github.com/blog/2012/12/11/is-my-internet-back-yet</id>
+    <content type="html"><![CDATA[<p>One of my favorite things about being a programmer is that I can figure out ways to solve little problems.  Little non-problems, even.  Over the last week, there have been Time Warner internet outages in my neighborhood.</p>
+
+<p>So I built a busted little script will send me a TEXT MESSAGE when my internet has come back on (I love you, Twilio).  I&#8217;ve just saved you about 4 minutes writing your own.</p>
+
+<p> <a href="https://github.com/drnikki/is-my-internet-back-yet">Enjoy</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Getting Skype History]]></title>
+    <link href="http://drnikki.github.com/blog/2012/10/24/getting-skype-history/"/>
+    <updated>2012-10-24T16:03:00-04:00</updated>
+    <id>http://drnikki.github.com/blog/2012/10/24/getting-skype-history</id>
+    <content type="html"><![CDATA[<p>I hate Skype, but I&#8217;m stuck using it.  Part of my problem with it is that logs get very large very quickly and going back to find something you forgot to write down (like a server addres) takes forever.</p>
+
+<p>The solution?  Export your skype logs to something grep-able! (Duh.)</p>
+
+<div><script src='https://gist.github.com/3947360.js?file='></script>
+<noscript><pre><code></code></pre></noscript></div>
+
+
+<p>So hot, so easy, put it in cron and run it all the time.</p>
+
+<p>p.s. Install OSX Developer Tools if you&#8217;re on a OSX.</p>
+
+<p>p.p.s I totally stole this from a Stack Overflow post a while ago.  If I find it, I&#8217;ll include the link.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[your technology sucks]]></title>
+    <link href="http://drnikki.github.com/blog/2012/10/16/your-technology-sucks/"/>
+    <updated>2012-10-16T12:09:00-04:00</updated>
+    <id>http://drnikki.github.com/blog/2012/10/16/your-technology-sucks</id>
+    <content type="html"><![CDATA[<p>I recently got an email from an organization looking for a Senior Engineer to work on their project.</p>
+
+<!-- more -->
+
+
+<p>I responded:</p>
+
+<blockquote><p>Hi there,</p>
+
+<p>Thanks for reaching out. Can you tell me a little more about the technology you&#8217;re using and the make up of your team?</p>
+
+<p>Thanks,</p>
+
+<p>Nikki</p></blockquote>
+
+<p>A few minutes later, I received their response:</p>
+
+<blockquote><p>Hi Nikki,</p>
+
+<p>Thanks for getting back to me. I hope the below information can answer your questions.</p>
+
+<p>OUR TECHNOLOGIES</p>
+
+<p>[redacted] has a few applications in place that will serve as basic building blocks. You will improve these applications to reflect best practices in software, build an API framework to  shape a software ecosystem at [redacted], and integrate these applications to create a seamless, intuitive user experience. You will also lead the creation of wholly new applications as [redacted]&#8217;s software needs mature. In doing so, you will be a pioneer and trailblazer in the rapidly maturing [redacted - industry] technology space, leading the development of a cutting edge online [redacted - industry] platform.</p>
+
+<p>OUR TEAM</p>
+
+<p>We currently have a nimble product team that includes a full-time developer, a full-time product manager, and other colleagues with expertise in online [redacted - industry], media production, web infrastructure, and [redacted - industry]. Our CIO has a track record of launching software and technology architecture.</p></blockquote>
+
+<p>REALLY? SEEEERIOUSLY? You&#8217;re going to appease a developer by sending some elevator pitch buzzwords about best practices and software ecosystems? I responded with a polite thanks-but-no-thanks, but now I have the perfect pile of bullshit to give to any startup looking to completely obfuscate their technology stack.  This is for you blogr.io, gab.le, snap.zi, chatd.og or whatever silly web 2.95 names are coming next.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Setting Language manually in Django 1.4]]></title>
+    <link href="http://drnikki.github.com/blog/2012/10/15/setting-language-manually-in-django-1-dot-4/"/>
+    <updated>2012-10-15T16:49:00-04:00</updated>
+    <id>http://drnikki.github.com/blog/2012/10/15/setting-language-manually-in-django-1-dot-4</id>
+    <content type="html"><![CDATA[<p>I spent today debugging a multilingual django app that I didn&#8217;t write.  The problem is that the site&#8217;s language was being changed when you used the language switcher, but not if you typed in the url.  So http://example.com/fr would only <em>occasionally</em> land you on the French version of the site. When you&#8217;re using custom language codes for any reason (in our case, we were matching the client&#8217;s lang codes) you&#8217;re going to have to set the app&#8217;s language.</p>
+
+<!--more-->
+
+
+<p>The relevant code:</p>
+
+<figure class='code'><figcaption><span>setting lanugage</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+</pre></td><td class='code'><pre><code class='python'><span class='line'><span class="k">def</span> <span class="nf">manual_language_function</span><span class="p">(</span><span class="n">request</span><span class="p">,</span> <span class="n">lang</span><span class="p">):</span>
+</span><span class='line'>
+</span><span class='line'>    <span class="k">if</span> <span class="nb">hasattr</span><span class="p">(</span><span class="n">request</span><span class="p">,</span> <span class="s">&#39;session&#39;</span><span class="p">):</span>
+</span><span class='line'>        <span class="n">request</span><span class="o">.</span><span class="n">session</span><span class="p">[</span><span class="s">&#39;django_language&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">lang</span>
+</span><span class='line'>    <span class="k">else</span><span class="p">:</span>
+</span><span class='line'>        <span class="c"># do something else </span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Because setting the session isn&#8217;t enough, you&#8217;ve got to add:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='python'><span class='line'>    <span class="n">translation</span><span class="o">.</span><span class="n">activate</span><span class="p">(</span><span class="n">lang</span><span class="p">)</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>And the whole thing for completeness&#8217;s sake</p>
+
+<figure class='code'><figcaption><span>setting lanugage</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+</pre></td><td class='code'><pre><code class='python'><span class='line'><span class="k">def</span> <span class="nf">manual_language_function</span><span class="p">(</span><span class="n">request</span><span class="p">,</span> <span class="n">lang</span><span class="p">):</span>
+</span><span class='line'>
+</span><span class='line'>    <span class="k">if</span> <span class="nb">hasattr</span><span class="p">(</span><span class="n">request</span><span class="p">,</span> <span class="s">&#39;session&#39;</span><span class="p">):</span>
+</span><span class='line'>        <span class="n">request</span><span class="o">.</span><span class="n">session</span><span class="p">[</span><span class="s">&#39;django_language&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">lang</span>
+</span><span class='line'>        <span class="n">translation</span><span class="o">.</span><span class="n">activate</span><span class="p">(</span><span class="n">lang</span><span class="p">)</span>
+</span><span class='line'>    <span class="k">else</span><span class="p">:</span>
+</span><span class='line'>        <span class="c"># do something else </span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>I lost a few hours figuring this out today, so here you go.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[TweetSinger.com]]></title>
+    <link href="http://drnikki.github.com/blog/2012/09/22/tweetsinger-dot-com/"/>
+    <updated>2012-09-22T13:00:00-04:00</updated>
+    <id>http://drnikki.github.com/blog/2012/09/22/tweetsinger-dot-com</id>
+    <content type="html"><![CDATA[<p>We (LBi US, where I’m a developer) just launched TweetSinger.com, a Sony
+Mobile campaign site for their new Xperia series phones. This was my
+first large non-Drupal project in a while and it was fun to get to do
+something different.</p>
+
+<p>What was initially presented to me as a “quick two-page site” took a
+month of long hours to finish.</p>
+
+<!--more-->
+
+
+<p><strong>The technology:</strong></p>
+
+<p>Its built in Symfony, backed by MongoDB, and using HTML5 canvas for
+visualizations.</p>
+
+<p>We’re running a ton of Ubuntu web servers behind a load balancer and one
+MongoDB server all on Amazon EC2. I got to do all of my own devops on
+this project and it was nice to have complete control of the stack. We
+deploy with Capistrano (and its multi-stage extension) and files are
+stored on S3. Integrating with S3 was totally painless using a
+pre-existing Symfony library. It was an 11th hour switch due to storage
+concerns with EBS and it was absolutely the best choice we could have
+made.</p>
+
+<p>I was initially concerned about storing huge json files in the db (each
+record is about 1MB), but it hasn’t been a problem at all. This is a
+fairly simple application for a database - there won’t ever be race
+conditions. The record is written only once upon song creation and will
+only be read thereafter. (A few edge cases notwithstanding). Getting the
+mongo server &amp; RAID’ed EBS volumes was a lot easier than I expected.</p>
+
+<p>The conversion is being done by a REST server that was written in Java,
+lives in Tomcat, and is built with ant via the the same Capistrano
+script I use to deploy the site.</p>
+
+<p><strong>Lessons learned:</strong></p>
+
+<p>An Amazon EC2 instance instance has to be off to make an image of it. This
+is one of those things that sounds so obvious, until you forget to shut
+an instance down before making an AMI and then can’t figure out why you
+can’t SSH into it.</p>
+
+<p>The site itself is fairly small - only two discrete pages and a minimal
+admin area. It was initially presented to me as “a quick little build.”
+It’s easy to fall into the trap of thinking that perhaps some of the
+best practices that are part of developing large websites wouldn’t be
+needed on a smaller project. This, of course, is wrong. Best practices
+exist usually because they’re “best.” Not best “only if your dev team
+has 15 people on it.” Or best “just when you’ve got plenty of time.”</p>
+
+<p>Having a structured build system, using pull requests to get code into
+master, documenting everything in a place any team member can access -
+these practices saved us hours even on this “little” website. I only
+briefly considered sidestepping some of these, but those practices are
+there to protect me (and the code) from myself as well.</p>
+
+<p>The super-smart Yury Tillis was the front-end engineer on the project
+and is supposed to do a write-up of some of the magic he worked for the
+visualization.</p>
+
+<p>Congratulations to the entire LBi US team who worked so hard to get it
+launched.</p>
+
+<p>Check it out at <a href="http://www.tweetsinger.com">www.tweetsinger.com</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Testing with Selenium]]></title>
+    <link href="http://drnikki.github.com/blog/2011/12/10/testing-with-selenium/"/>
+    <updated>2011-12-10T17:22:00-05:00</updated>
+    <id>http://drnikki.github.com/blog/2011/12/10/testing-with-selenium</id>
+    <content type="html"><![CDATA[<p>In case you missed my presentation this afternoon, you can get slides,
+see tests, read notes and etc. etc at
+<a href="https://github.com/drnikki/Drupal-Camp-NYC-10">https://github.com/drnikki/Drupal-Camp-NYC-10</a></p>
+
+<p>If you were in my presentation and had a question we didn’t cover, check
+out the README.txt.</p>
+]]></content>
+  </entry>
+  
+</feed>

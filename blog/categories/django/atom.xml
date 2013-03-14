@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: django | Nikki Stevens]]></title>
+  <link href="http://drnikki.github.com/blog/categories/django/atom.xml" rel="self"/>
+  <link href="http://drnikki.github.com/"/>
+  <updated>2013-03-14T15:01:08-04:00</updated>
+  <id>http://drnikki.github.com/</id>
+  <author>
+    <name><![CDATA[Nikki Stevens]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Setting Language manually in Django 1.4]]></title>
+    <link href="http://drnikki.github.com/blog/2012/10/15/setting-language-manually-in-django-1-dot-4/"/>
+    <updated>2012-10-15T16:49:00-04:00</updated>
+    <id>http://drnikki.github.com/blog/2012/10/15/setting-language-manually-in-django-1-dot-4</id>
+    <content type="html"><![CDATA[<p>I spent today debugging a multilingual django app that I didn't write.  The problem is that the site's language was being changed when you used the language switcher, but not if you typed in the url.  So http://example.com/fr would only <em>occasionally</em> land you on the French version of the site. When you're using custom language codes for any reason (in our case, we were matching the client's lang codes) you're going to have to set the app's language.</p>
+
+<!--more-->
+
+
+<p>The relevant code:</p>
+
+<p>``` python setting lanugage
+def manual_language_function(request, lang):</p>
+
+<pre><code>if hasattr(request, 'session'):
+    request.session['django_language'] = lang
+else:
+    # do something else 
+</code></pre>
+
+<p>```</p>
+
+<p>Because setting the session isn't enough, you've got to add:</p>
+
+<p>```python</p>
+
+<pre><code>    translation.activate(lang)
+</code></pre>
+
+<p>```</p>
+
+<p>And the whole thing for completeness's sake
+``` python setting lanugage
+def manual_language_function(request, lang):</p>
+
+<pre><code>if hasattr(request, 'session'):
+    request.session['django_language'] = lang
+    translation.activate(lang)
+else:
+    # do something else 
+</code></pre>
+
+<p>```</p>
+
+<p>I lost a few hours figuring this out today, so here you go.</p>
+]]></content>
+  </entry>
+  
+</feed>

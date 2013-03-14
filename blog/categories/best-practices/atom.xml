@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: best practices | Nikki Stevens]]></title>
+  <link href="http://drnikki.github.com/blog/categories/best-practices/atom.xml" rel="self"/>
+  <link href="http://drnikki.github.com/"/>
+  <updated>2013-03-14T15:01:08-04:00</updated>
+  <id>http://drnikki.github.com/</id>
+  <author>
+    <name><![CDATA[Nikki Stevens]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Recruiting engineers with your startup's developer blog.]]></title>
+    <link href="http://drnikki.github.com/blog/2013/03/12/recruiting-engineers-with-your-developer-blog/"/>
+    <updated>2013-03-12T10:00:00-04:00</updated>
+    <id>http://drnikki.github.com/blog/2013/03/12/recruiting-engineers-with-your-developer-blog</id>
+    <content type="html"><![CDATA[<p>I recently became a Director of Engineering at a startup and one of my first official tasks was to revitalize the company's very stale developer blog.  I started thinking about what makes a good dev blog, and began writing up recommendations for what I thought the team should do.  I got all the way through these and realized that I could have gone into nearly any startup and given this same advice.  So, here is some advice on how to run your startup's developer blog.</p>
+
+<!-- more -->
+
+
+<h3>MISSION STATEMENT</h3>
+
+<p>Most likely, your startup's dev blog has primarily been used as a tool for recruitment, and while that's certainly still an objective, you'll fare better if it isn't the main focus.  At it's core, a developer blog should be written for developers and by developers about everything that goes into making and supporting a your infrastructure. A developer blog should be a blog that's useful to developers.  That's it.  Pretty simple.</p>
+
+<p>As a recruitment platform, you need to demonstrate that you are a team worth joining. In order to demonstrate that you are a team worth joining, you need to look at what our goals are - both as a company and as an engineering department.  What kind of people are you trying to attract? What kind of message are you trying to send? The company I'm at doesn't seem to have those written up yet, but I honestly don't think it matters.  The standard answers to those questions are "smart, hardworking people."</p>
+
+<h3>ARE YOU A TEAM WORTH JOINING?</h3>
+
+<p>What kinds of teams to developers want to join?  With no scientific evidence and only a brief google search, but with 16 years as a working developer, I'm going to guess that most developers will say they want two things: 1) to work on cool shit with 2) people they enjoy being around.  Often developers will add that they also want to work at a company that values and supports their development team.</p>
+
+<p>You need to demonstrate that you have the company culture that supports developers. That you are a self-reflective team that is able to process our failures and adjust accordingly.  That you are willing to work to deliver a quality product without burning out developers in the process.</p>
+
+<h4>AND WHILE WE'RE TALKING ABOUT CULTURE...</h4>
+
+<p>It's tempting to use your developer blog as a way to show people how "fun" it is to work at your startup.  You have beer fridge and happy hours and cases of champagne scattered around the office after a company meeting.  You need to separate development from drinking culture. Good developers may not drink, but even if they do, they may not have an interest in drinking with their coworkers. Shanley has an <a href="http://blog.prettylittlestatemachine.com/blog/2013/02/20/what-your-culture-really-says/">excellent write up</a> of what your culture is really saying.  Go read it.  (This is also a good write up about <a href="http://ryanfunduk.com/culture-of-exclusion/">drinking and exclusion</a> in tech.)</p>
+
+<p>The reality is that while you're struggling to build something cool you spend a lot of time figuring out just how not to drown.  Sometimes you survive by drinking beers while you're doing a 3am push.  It's fine that it happens, but it shouldn't be a common occurrence and most certainly should not be how you portray your team on your developer blog.</p>
+
+<h3>BUT HOW?!</h3>
+
+<p>It's actually quite simple.</p>
+
+<ol>
+<li>Find things you can blog about<br />
+Your team can probably come up with a bunch of things they can blog about.  Your company/brand may have some things they don't want discussed.  You may have ideas about topics you'd like to investigate.  Go forth and find ideas.  If this is where you're stuck, well, I don't have any other help for you just yet.</li>
+<li>Put blog stories into your work tracker <br />
+Pivotal Tracker, JIRA, ScrumSomethingSomething - whatever you use, make writing blog posts a point-worthy task that's accomplished in a sprint just like any other.</li>
+<li>Publish<br />
+And rejoice when you get to share things you're learning and get feedback on things that you're still uncovering.</li>
+</ol>
+
+
+<h3>WHAT'S IN IT FOR ME?!</h3>
+
+<p>You will benefit because doing this you will:</p>
+
+<ul>
+<li>think critically about your work</li>
+<li>raise your public profile</li>
+<li>increase your <a href="http://news.ycombinator.com/item?id=5338719">open source contributions</a></li>
+</ul>
+
+
+<p>And the most self-serving reason of all: it will make you a <a href="http://stackoverflow.com/questions/99460/does-writing-and-speaking-on-software-make-you-a-better-programmer">better developer</a>.  If you're not a developer and don't care about any of those things, probably stop reading because I can't help you just yet.</p>
+
+<p>The reality is that much of the work you do is probably fairly standard development, so focus on the things that <em>do</em> make you unique - the approaches you take to solving problems, the things you do that don't work, and the ways that you interact with your product and your process.</p>
+
+<p>I believe that sharing your path as a technology team supporting a growing startup will contribute value to the broader "development blog" landscape and you'll as demonstrate that you are a team that good developers want to join.</p>
+
+<h3>A SUSTAINABLE HEALTHY BLOG PLAN</h3>
+
+<ul>
+<li>Get each developer to write a blog about something they're working on individually.<br/>
+This can be difficult because not every developer goes home and hacks on things.  The assumption that they do can be exclusionary (often people
+who don't immediately fit into the "brogrammer" culture are excluded from this - people have family obligations that prevent them from leaving a job coding
+all day to go home and code all night). If they don't work on side projects, encourage them to blog about something they're learning at work.</li>
+</ul>
+
+
+<p><strong>If they're not learning anything at work, you have bigger problems than stale content on your developer blog.</strong></p>
+
+<ul>
+<li>Each time there's a sprint retrospective or project post-mortem, ask: "can you blog about this?"</li>
+</ul>
+
+
+<p>If you're not sure, here are some more questions you can ask:</p>
+
+<ul>
+<li>Did you try something new that worked?</li>
+<li>Did you try something new that didn't work?</li>
+<li>Did you stop doing something good or start doing something bad?</li>
+<li>Did a team member take an action that impacted the rest of the team?</li>
+<li>Did a major technology fail us? Why?</li>
+<li>Did something completely unexpected happen that threw us off course?</li>
+<li>Did you systematically deny a truth that would have made this project better?</li>
+<li>Did you under- or over-estimate?</li>
+</ul>
+
+
+<p>If you don't answer yes to at least a few of those questions, you may have a development team full of automatons.  Out of retrospectives and post-mortems come valuable insights about breakdown in process, changes that will improve workflow, and problems caused by technical short-sightedness.  Give your developers a task to write up an overview or deep-dive of this for the blog.  If it ends up filled with too much proprietary or otherwise private information, you've still won as a team because everyone can read it, and you've given a developer practice in distilling organizing and presenting information.  At worst, you've helped your developer grow. At best, you've done that <em>and</em> benefited your blog.</p>
+
+<ol>
+<li>Keep a bucket list of possible blog topics.</li>
+<li>technology, hackathons, nuanced challenges, those list of steps from above.</li>
+</ol>
+
+
+<h3>YES, BUT</h3>
+
+<p>Yes, there is always "money" work to do. There are always projects that need attention. There is always technical debt that you could be paying off. Is having an active dev blog a worthwhile use of the business's time?  It is.  Go back and re-read the "what's in it for me section."  It's going to be nearly impossible for developers <em>not</em> to benefit from involvement in this process. I read somewhere that developers can have three years of experience, or can have the same year three times.  This is one way you can guarantee that your developers are growing.</p>
+
+<p>And if you're feeling altruistic, think about how you're joining in a <a href="http://en.wikipedia.org/wiki/Community_of_practice">community of practice</a> that's larger than your functional or project team and that is going to enrich everyone's experience.</p>
+
+<p><strong>tl;dr:</strong> If you want to recruit good engineers, don't (just) post pictures of mimosas on your developer blog.</p>
+
+<p><em>Did I miss anything?  Tell me! <a href="http://twitter.com/drnikki">@drnikki</a></em></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[How dysfunctional is my development team?]]></title>
+    <link href="http://drnikki.github.com/blog/2013/01/16/how-dysfunctional-is-my-development-team/"/>
+    <updated>2013-01-16T16:12:00-05:00</updated>
+    <id>http://drnikki.github.com/blog/2013/01/16/how-dysfunctional-is-my-development-team</id>
+    <content type="html"><![CDATA[<p>Next Friday, I'll be presenting at <a href="http://sandcamp.org">SandCamp</a> on <a href="https://sandcamp.org/best-practices-teams">best practices for teams</a>. Naturally, I’ve been thinking about what makes a good team in general, and a good software development team specifically.  For most of my career, I’ve been part of development teams at development shops or technical companies.  Those places already had forward-thinking technical people making infrastructure decisions and crafting the technical culture (for better or worse).  By the time I came along, most of the kinks had been worked out.</p>
+
+<p>But I don't work at a technical company right now - I work at an advertising agency.</p>
+
+<!-- more -->
+
+
+<p>The more time I spend here, the more I realize: advertising agencies are <strong>the exact opposite</strong> of technical companies.  They’re filled with forward-thinking non-technical people. Most agencies used to be print/media focused. But, times change and agencies change along with them.  Now most advertising agencies have in-house development teams. A lot of these agencies brand themselves as bleeding-edge and interactive-focused.  But those same people who have brilliant creative visions for agencies are rarely able to nurture a technical department. Developers at ad agencies often become after-thoughts. After the brief is done, a producer will get a developer involved to "execute the vision." By that time, it's often too late to correct flaws in the design, or point out potential architectural pitfalls.</p>
+
+<p>And sometimes, developers and designers intuitively know that the way they're working isn't right, but can't identify exactly what the problem is or how to fix it. If you find yourself in a similar situation, take the quiz!</p>
+
+<p>Answer <em>True</em> or <em>False</em> to each of the following statements:</p>
+
+<ul>
+<li>My entire department uses the same version control system, wiki, and ticketing system.</li>
+<li>I'm a developer starting a new project. I know where to go to create my repository, tickets and anything else I need.</li>
+<li>I'm a developer looking for comps.  I know where the design team keeps their comps for my projects.  I also know each time a comp is updated or changed without having to go look.</li>
+<li>Each time a project is scoped, I, or another developer, am consulted to validate the feasibility of the overall plan.</li>
+<li>I have regular meetings with my larger, non-tech project leads about the status of the project's different parts.</li>
+<li>I have regular meetings within my technical department to do code reviews / educational seminars / showing off neat stuff.</li>
+<li>I'm excited to learn from other members on my team.  I think I work with amazing programmers.</li>
+<li>I'm a developer looking to improve my skills.  I know my managers are going to be excited to help me do so.</li>
+<li>I have a suggestion about a breakdown in our process.  I know my managers are going to be receptive to my ideas.</li>
+<li>I can approach the design team about a problem and be sure we’ll find a solution that meets both of our needs.</li>
+</ul>
+
+
+<p>If you answered <em>true</em> to most of the statements above, congratulations! There is nothing more to do - rejoice in your awesome team and go build cool stuff!</p>
+
+<p>If you answered <em>false</em> to most of the statements above, it's time for an intervention.  Personally, I'm working to create an infrastructure and cultural shift that ensures that everyone on my team will be able to answer <em>true</em> to every statement.
+I'll be writing more about it, but if you're doing the same, <a href="http://twitter.com/drnikki">let's talk</a>.</p>
+
+<p><em>Did I miss anything?  Tell me! <a href="http://twitter.com/drnikki">@drnikki</a></em></p>
+]]></content>
+  </entry>
+  
+</feed>

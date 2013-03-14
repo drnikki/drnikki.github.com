@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: stupid internet | Nikki Stevens]]></title>
+  <link href="http://drnikki.github.com/blog/categories/stupid-internet/atom.xml" rel="self"/>
+  <link href="http://drnikki.github.com/"/>
+  <updated>2013-03-14T15:01:08-04:00</updated>
+  <id>http://drnikki.github.com/</id>
+  <author>
+    <name><![CDATA[Nikki Stevens]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Is my internet back yet]]></title>
+    <link href="http://drnikki.github.com/blog/2012/12/11/is-my-internet-back-yet/"/>
+    <updated>2012-12-11T16:25:00-05:00</updated>
+    <id>http://drnikki.github.com/blog/2012/12/11/is-my-internet-back-yet</id>
+    <content type="html"><![CDATA[<p>One of my favorite things about being a programmer is that I can figure out ways to solve little problems.  Little non-problems, even.  Over the last week, there have been Time Warner internet outages in my neighborhood.</p>
+
+<p>So I built a busted little script will send me a TEXT MESSAGE when my internet has come back on (I love you, Twilio).  I've just saved you about 4 minutes writing your own.</p>
+
+<p> <a href="https://github.com/drnikki/is-my-internet-back-yet">Enjoy</a></p>
+]]></content>
+  </entry>
+  
+</feed>

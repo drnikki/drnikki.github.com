@@ -1,0 +1,254 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>TweetSinger.com - Nikki Stevens</title>
+	<meta name="author" content="Nikki Stevens">
+
+    
+	<meta name="description" content="Nikki Stevens is drnikki is open source director of engineering at refinery29.">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link href="/atom.xml" rel="alternate" title="Nikki Stevens" type="application/atom+xml">
+	<link rel="canonical" href="">
+	<link href="/favicon.png" rel="shortcut icon">
+	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	
+</head>
+
+<body>
+	<header id="header" class="inner"><h1><a href="/">Nikki Stevens</a></h1>
+<nav id="main-nav"><ul class="main">
+	<li><a href="/about">About</a></li>
+	<li><a href="/">Blog</a></li>
+	<li><a href="/blog/archives">Archives</a></li>
+</ul>
+</nav>
+<nav id="mobile-nav">
+	<div class="alignleft menu">
+		<a class="button">Menu</a>
+		<div class="container"><ul class="main">
+	<li><a href="/about">About</a></li>
+	<li><a href="/">Blog</a></li>
+	<li><a href="/blog/archives">Archives</a></li>
+</ul>
+</div>
+	</div>
+	<div class="alignright search">
+		<a class="button"></a>
+		<div class="container">
+			<form action="http://google.com/search" method="get">
+				<input type="text" name="q" results="0">
+				<input type="hidden" name="q" value="site:drnikki.github.com">
+			</form>
+		</div>
+	</div>
+</nav>
+<nav id="sub-nav" class="alignright">
+
+	<div class="social">
+		
+		
+		
+		<a class="twitter" href="http://twitter.com/drnikki" title="Twitter">Twitter</a>
+		
+		
+		<a class="github" href="https://github.com/drnikki" title="GitHub">GitHub</a>
+		
+		
+		<a class="linkedin" href="http://www.linkedin.com/in/nikkistevens">LinkedIn</a>
+		
+		
+		
+		
+		<a class="rss" href="/atom.xml" title="RSS">RSS</a>
+		
+	</div>
+	<form class="search" action="http://google.com/search" method="get">
+		<input class="alignright" type="text" name="q" results="0">
+		<input type="hidden" name="q" value="site:drnikki.github.com">
+	</form>
+</nav>
+
+</header>
+	
+		
+<div id="banner" class="inner">
+	<div class="container">
+		<ul class="feed"></ul>
+	</div>
+	<small><a href="http://twitter.com/drnikki">drnikki</a> @ <a href="http://twitter.com">Twitter</a></small>
+	<div class="loading">Loading...</div>
+</div>
+<script src="/javascripts/twitter.js"></script>
+<script type="text/javascript">
+	(function($){
+		$('#banner').getTwitterFeed('drnikki', 5, false);
+	})(jQuery);
+</script>
+
+	
+	<div id="content" class="inner"><article class="post">
+	<h1 class="title">TweetSinger.com</h1>
+	<div class="entry-content"><p>We (LBi US, where I’m a developer) just launched TweetSinger.com, a Sony
+Mobile campaign site for their new Xperia series phones. This was my
+first large non-Drupal project in a while and it was fun to get to do
+something different.</p>
+
+<p>What was initially presented to me as a “quick two-page site” took a
+month of long hours to finish.</p>
+
+<!--more-->
+
+
+<p><strong>The technology:</strong></p>
+
+<p>Its built in Symfony, backed by MongoDB, and using HTML5 canvas for
+visualizations.</p>
+
+<p>We’re running a ton of Ubuntu web servers behind a load balancer and one
+MongoDB server all on Amazon EC2. I got to do all of my own devops on
+this project and it was nice to have complete control of the stack. We
+deploy with Capistrano (and its multi-stage extension) and files are
+stored on S3. Integrating with S3 was totally painless using a
+pre-existing Symfony library. It was an 11th hour switch due to storage
+concerns with EBS and it was absolutely the best choice we could have
+made.</p>
+
+<p>I was initially concerned about storing huge json files in the db (each
+record is about 1MB), but it hasn’t been a problem at all. This is a
+fairly simple application for a database - there won’t ever be race
+conditions. The record is written only once upon song creation and will
+only be read thereafter. (A few edge cases notwithstanding). Getting the
+mongo server &amp; RAID’ed EBS volumes was a lot easier than I expected.</p>
+
+<p>The conversion is being done by a REST server that was written in Java,
+lives in Tomcat, and is built with ant via the the same Capistrano
+script I use to deploy the site.</p>
+
+<p><strong>Lessons learned:</strong></p>
+
+<p>An Amazon EC2 instance instance has to be off to make an image of it. This
+is one of those things that sounds so obvious, until you forget to shut
+an instance down before making an AMI and then can’t figure out why you
+can’t SSH into it.</p>
+
+<p>The site itself is fairly small - only two discrete pages and a minimal
+admin area. It was initially presented to me as “a quick little build.”
+It’s easy to fall into the trap of thinking that perhaps some of the
+best practices that are part of developing large websites wouldn’t be
+needed on a smaller project. This, of course, is wrong. Best practices
+exist usually because they’re “best.” Not best “only if your dev team
+has 15 people on it.” Or best “just when you’ve got plenty of time.”</p>
+
+<p>Having a structured build system, using pull requests to get code into
+master, documenting everything in a place any team member can access -
+these practices saved us hours even on this “little” website. I only
+briefly considered sidestepping some of these, but those practices are
+there to protect me (and the code) from myself as well.</p>
+
+<p>The super-smart Yury Tillis was the front-end engineer on the project
+and is supposed to do a write-up of some of the magic he worked for the
+visualization.</p>
+
+<p>Congratulations to the entire LBi US team who worked so hard to get it
+launched.</p>
+
+<p>Check it out at <a href="http://www.tweetsinger.com">www.tweetsinger.com</a></p>
+</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-09-22T13:00:00-04:00" pubdate data-updated="true">Sep 22<span>nd</span>, 2012</time></div>
+	<div class="tags">
+
+</div>
+	
+		<span class="comments"><a href="/blog/2012/09/22/tweetsinger-dot-com/#disqus_thread">Comments</a></span>
+	
+</div></article>
+
+	<div class="share">
+	<div class="addthis_toolbox addthis_default_style ">
+	
+	
+	<a class="addthis_button_tweet"></a>
+	
+	
+	<a class="addthis_counter addthis_pill_style"></a>
+	</div>
+  <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid="></script>
+</div>
+
+
+
+<section id="comment">
+    <h1 class="title">Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+</section>
+</div>
+	<footer id="footer" class="inner">Copyright &copy; 2013
+
+    Nikki Stevens
+
+</footer>
+	<script src="/javascripts/slash.js"></script>
+<script src="/javascripts/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+	$('.fancybox').fancybox();
+})(jQuery);
+</script> <!-- Delete or comment this line to disable Fancybox -->
+
+
+<script type="text/javascript">
+      var disqus_shortname = 'drnikki';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://drnikki.github.com/blog/2012/09/22/tweetsinger-dot-com/';
+        var disqus_url = 'http://drnikki.github.com/blog/2012/09/22/tweetsinger-dot-com/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-18227202-1']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: life changing snippets | Nikki Stevens]]></title>
+  <link href="http://drnikki.github.com/blog/categories/life-changing-snippets/atom.xml" rel="self"/>
+  <link href="http://drnikki.github.com/"/>
+  <updated>2013-03-14T15:01:08-04:00</updated>
+  <id>http://drnikki.github.com/</id>
+  <author>
+    <name><![CDATA[Nikki Stevens]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Stupid cache is stupid]]></title>
+    <link href="http://drnikki.github.com/blog/2013/01/15/i-hate-you-cache/"/>
+    <updated>2013-01-15T10:25:00-05:00</updated>
+    <id>http://drnikki.github.com/blog/2013/01/15/i-hate-you-cache</id>
+    <content type="html"><![CDATA[<p>Recently, I worked on a project where the client controlled their production environment.  They're using EdgeCast and we didn't have access to force a cache clear when deploying new releases to production. So we'd push, ask them to clear cache, and wait as many as 8 - 10 hours to make sure everything was working fine.  This sucks, but what I didn't expect was that even after they cleared the cache, old files were still being served. So we'd ask for another cache clear, and wait. This was as painful as it sounds.</p>
+
+<p>Eventually, they asked us to simply put no-cache headers on all of our files. This kind of defeats the purpose of even having a CDN, but okay.  We tried that next.  However, even with cache-control headers in place, the CDN would unpredictably serve older versions of .js and .css files.  There was a lot of back and forth and finger pointing about who's fault it <em>really</em> was that prior-release .js was still being delivered.  They finally suggested that we rename our asset files with each release.  This <em>also</em> sucks, but was at least a solution that we could control.  With this script as part of our build, we met them halfway and sort of renamed asset files with each release.</p>
+
+<p> <a href="https://github.com/drnikki/cli-cachebuster">Here's the repo</a> for the super simple script should you ever find yourself in such a stupid position.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Is my internet back yet]]></title>
+    <link href="http://drnikki.github.com/blog/2012/12/11/is-my-internet-back-yet/"/>
+    <updated>2012-12-11T16:25:00-05:00</updated>
+    <id>http://drnikki.github.com/blog/2012/12/11/is-my-internet-back-yet</id>
+    <content type="html"><![CDATA[<p>One of my favorite things about being a programmer is that I can figure out ways to solve little problems.  Little non-problems, even.  Over the last week, there have been Time Warner internet outages in my neighborhood.</p>
+
+<p>So I built a busted little script will send me a TEXT MESSAGE when my internet has come back on (I love you, Twilio).  I've just saved you about 4 minutes writing your own.</p>
+
+<p> <a href="https://github.com/drnikki/is-my-internet-back-yet">Enjoy</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Getting Skype History]]></title>
+    <link href="http://drnikki.github.com/blog/2012/10/24/getting-skype-history/"/>
+    <updated>2012-10-24T16:03:00-04:00</updated>
+    <id>http://drnikki.github.com/blog/2012/10/24/getting-skype-history</id>
+    <content type="html"><![CDATA[<p>I hate Skype, but I'm stuck using it.  Part of my problem with it is that logs get very large very quickly and going back to find something you forgot to write down (like a server addres) takes forever.</p>
+
+<p>The solution?  Export your skype logs to something grep-able! (Duh.)</p>
+
+<p><div><script src='https://gist.github.com/3947360.js?file='></script>
+<noscript><pre><code></code></pre></noscript></div>
+</p>
+
+<p>So hot, so easy, put it in cron and run it all the time.</p>
+
+<p>p.s. Install OSX Developer Tools if you're on a OSX.</p>
+
+<p>p.p.s I totally stole this from a Stack Overflow post a while ago.  If I find it, I'll include the link.</p>
+]]></content>
+  </entry>
+  
+</feed>
