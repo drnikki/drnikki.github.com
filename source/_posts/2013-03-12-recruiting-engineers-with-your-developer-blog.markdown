@@ -58,15 +58,15 @@ I believe that sharing your path as a technology team supporting a growing start
 
 
 ### A SUSTAINABLE HEALTHY BLOG PLAN
-- Get each developer to write a blog about something they're working on individually.  
+** Get each developer to write a blog about something they're working on individually.**
 This can be difficult because not every developer goes home and hacks on things.  The assumption that they do can be exclusionary (often people
 who don't immediately fit into the "brogrammer" culture are excluded from this - people have family obligations that prevent them from leaving a job coding
 all day to go home and code all night). If they don't work on side projects, encourage them to blog about something they're learning at work.  
 
-**If they're not learning anything at work, you have bigger problems than stale content on your developer blog.**
+*If they're not learning anything at work, you have bigger problems than stale content on your developer blog.*
 
 
-- Each time there's a sprint retrospective or project post-mortem, ask: "can you blog about this?"
+**Each time there's a sprint retrospective or project post-mortem, ask: "can you blog about this?"**
 
 If you're not sure, here are some more questions you can ask:
 
@@ -81,9 +81,9 @@ If you're not sure, here are some more questions you can ask:
 
 If you don't answer yes to at least a few of those questions, you may have a development team full of automatons.  Out of retrospectives and post-mortems come valuable insights about breakdown in process, changes that will improve workflow, and problems caused by technical short-sightedness.  Give your developers a task to write up an overview or deep-dive of this for the blog.  If it ends up filled with too much proprietary or otherwise private information, you've still won as a team because everyone can read it, and you've given a developer practice in distilling organizing and presenting information.  At worst, you've helped your developer grow. At best, you've done that *and* benefited your blog. 
 
-3. Keep a bucket list of possible blog topics.
-- technology, hackathons, nuanced challenges, those list of steps from above. 
+**Keep a bucket list of possible blog topics.**
 
+New technology, hackathons, nuanced challenges, that list of steps from above - the more you start thinking "Can I write a blog about this?" the more you'll find things to blog about, I promise.
 
 ###YES, BUT
 
