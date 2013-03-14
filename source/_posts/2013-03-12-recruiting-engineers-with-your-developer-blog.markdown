@@ -6,7 +6,7 @@ comments: true
 categories: [teams, best practices, dev blog]
 keywords: startups, recruiting, engineering, developer blog, dev blog
 description: How to write a good developer blog for startups
-published: false
+published: true 
 ---
 
 I recently became a Director of Engineering at a startup and one of my first official tasks was to revitalize the company's very stale developer blog.  I started thinking about what makes a good dev blog, and began writing up recommendations for what I thought the team should do.  I got all the way through these and realized that I could have gone into nearly any startup and given this same advice.  So, here is some advice on how to run your startup's developer blog.
